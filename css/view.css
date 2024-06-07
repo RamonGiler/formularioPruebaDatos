@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: antiquewhite;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.form-container, .search-container {
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    background-color: transparent;
+}
+input[type="text"], input[type="number"], input[type="date"], select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    background-color: transparent;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    color: black;
+    background-color: aqua;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
